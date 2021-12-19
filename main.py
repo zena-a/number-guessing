@@ -8,7 +8,7 @@ HARD_LEVEL = 5
 #Function that sets difficulty level of game
 def set_level():
   """Sets the level of difficulty chosen by user"""
-  level = level_choice = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
+  level_choice = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
 
   if level_choice == 'easy':
     return EASY_LEVEL
